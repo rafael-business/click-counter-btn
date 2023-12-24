@@ -1,0 +1,93 @@
+.click-counter-widget {
+    position: relative;
+    display: inline-flex;
+}
+
+.click-counter-btn {
+    display: inline-block;
+    font-weight: 600;
+    border-radius: 10px;
+    height: 50px;
+    padding: 16px 68px 18px 24px;
+    background-color: hsl(217, 71%, 53%);
+    transition: all ease .25s;
+    background-image: url(../img/go.svg);
+    background-repeat: no-repeat;
+    background-position: center right 32px;
+}
+
+.click-counter-btn span {
+    pointer-events: none;
+}
+
+.disabled {
+    pointer-events: none;
+    background: none;
+    background-color: #111111;
+}
+
+.click-counter-widget:has(.disabled) {
+    cursor: no-drop;
+}
+
+.click-counter-btn:hover {
+    background-color: #111111;
+    background-position: center right 24px;
+}
+
+.load {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-position: center center;
+    background-image: url(../img/refresh.svg);
+    animation: rotate-bg 2s linear infinite;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -10px;
+    display: none;
+    pointer-events: none;
+}
+
+.check {
+    background-image: url(../img/check.svg);
+    animation: none;
+}
+
+.error {
+    background-image: url(../img/error.svg);
+    animation: none;
+}
+
+@keyframes rotate-bg {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+#click-result {
+	margin-top: 12px;
+	padding-left: 28px;
+	background-repeat: no-repeat;
+	background-position: bottom 5px left;
+	border-bottom: 2px solid transparent;
+}
+
+#click-result.alert {
+	background-image: url(../img/alert.svg);
+	border-bottom: 2px solid hsl(48, 100%, 67%);
+}
+
+#click-result.success {
+	background-image: url(../img/check.svg);
+	border-bottom: 2px solid hsl(141, 53%, 53%);
+}
+
+#click-result.ajax-error {
+	background-image: url(../img/error.svg);
+	border-bottom: 2px solid hsl(348, 100%, 61%);
+}

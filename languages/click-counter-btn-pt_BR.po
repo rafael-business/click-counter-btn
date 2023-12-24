@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Click Counter Button\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-23 21:46+0000\n"
+"PO-Revision-Date: 2023-12-23 21:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2\n"
+"X-Domain: click-counter-btn"
+
+#: click-counter-widget.php:37
+msgid "Button Link:"
+msgstr "Link do Botão:"
+
+#: click-counter-widget.php:33
+msgid "Button Text:"
+msgstr "Texto do Botão:"
+
+#. Name of the plugin
+msgid "Click Counter Button"
+msgstr "Botão contador de Cliques"
+
+#: click-counter-widget.php:8
+msgid "Click Counter Widget"
+msgstr "Botão contador de Cliques - Widget"
+
+#: click-counter-btn.php:136
+msgid "Click recorded successfully."
+msgstr "Clique gravado com sucesso."
+
+#. Description of the plugin
+msgid "Creates a button that counts your clicks in the WordPress database."
+msgstr "Cria um botão que conta seus cliques no banco de dados do WordPress."
+
+#: click-counter-btn.php:141
+msgid "Failed to register the click."
+msgstr "Falha ao registrar o clique."
+
+#. URI of the plugin
+msgid "https://github.com/rafael-business/click-counter-btn"
+msgstr "https://github.com/rafael-business/click-counter-btn"
+
+#. Author URI of the plugin
+msgid "https://rafael.work"
+msgstr "https://rafael.work"
+
+#. Author of the plugin
+msgid "Rafael dos Santos"
+msgstr "Rafael dos Santos"
+
+#: click-counter-widget.php:9
+msgid "Widget to count clicks on a button"
+msgstr "Widget para contar cliques em um botão"
